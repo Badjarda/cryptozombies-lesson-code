@@ -1,10 +1,4 @@
-### Chapter 10: Wrapping It Up
-
-Congratulations! You've successfully written your first Web3.js front-end that interacts with your smart contract.
-
-As a reward, you get your very own The Phantom of Web3 zombie! Level 3.0 (for Web 3.0 😉), complete with fox mask. Check him out to the right.
-
-Next Steps
+# Next Steps
 This lesson was intentionally basic. We wanted to show you the core logic you would need in order to interact with your smart contract, but didn't want to take up too much time in order to do a full implementation since the Web3.js portion of the code is quite repetitive, and we wouldn't be introducing any new concepts by making this lesson any longer.
 
 So we've left this implementation bare-bones. Here's a checklist of ideas for things we would want to implement in order to make our front-end a full implementation for our zombie game, if you want to run with this and build it on your own:
@@ -49,7 +43,7 @@ Since there's a lot of front-end code that would go into creating a full interfa
 
     However, with the SDK we're building at Loom Network, soon you'll be able to serve front-ends like this from their own DAppChain instead of a centralized web server. That way between Ethereum and the Loom DAppChain, your entire app would run 100% on the blockchain.
 
-### Conclusion
+## Conclusion
 This concludes Lesson 6. You now have all the skills you need to code a smart contract and a front-end that allows users to interact with it!
 
 In the next lesson, we're going to be covering the final missing piece in this puzzle — deploying your smart contracts to Ethereum.
