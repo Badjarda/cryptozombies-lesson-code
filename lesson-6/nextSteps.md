@@ -48,9 +48,12 @@ That's just a start — I'm sure we could come up with even more features — an
 
 Since there's a lot of front-end code that would go into creating a full interface like this (HTML, CSS, JavaScript and a framework like React or Vue.js), building out this entire front-end would probably be an entire course with 10 lessons in itself. So we'll leave the awesome implementation to you.
 
-    Note: Even though our smart contract is decentralized, this front-end for interacting with our DApp would be totally centralized on our web-server somewhere.
+    Note: Even though our smart contract is decentralized, this front-end for interacting with our DApp would be 
+    totally centralized on our web-server somewhere.
 
-    However, with the SDK we're building at Loom Network, soon you'll be able to serve front-ends like this from their own DAppChain instead of a centralized web server. That way between Ethereum and the Loom DAppChain, your entire app would run 100% on the blockchain.
+    However, with the SDK we're building at Loom Network, soon you'll be able to serve front-ends like this from 
+    their own DAppChain instead of a centralized web server. That way between Ethereum and the Loom DAppChain, your
+    entire app would run 100% on the blockchain.
 
 ## Conclusion
 This concludes Lesson 6. You now have all the skills you need to code a smart contract and a front-end that allows users to interact with it!
