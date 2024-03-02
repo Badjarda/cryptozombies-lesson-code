@@ -9,11 +9,16 @@ So we've left this implementation bare-bones. Here's a checklist of ideas for th
 
 3 - There are a few different views in the app we would want to implement:
 
-    a. An individual zombie page, where you can view info about a specific zombie with a permalink to it. This page would render the zombie's appearance, show its name, its owner (with a link to the user's profile page), its win/loss count, its battle history, etc.
+    a. An individual zombie page, where you can view info about a specific zombie with a permalink to it. This page would
+    render the zombie's appearance, show its name, its owner (with a link to the user's profile page), its win/loss 
+    count, its battle history, etc.
 
-    b. A user page, where you could view a user's zombie army with a permalink. You would be able to click on an individual zombie to view its page, and also click on a zombie to attack it if you're logged into MetaMask and have an army.
+    b. A user page, where you could view a user's zombie army with a permalink. You would be able to click on an
+    individual zombie to view its page, and also click on a zombie to attack it if you're logged into MetaMask
+    and have an army.
 
-    c. A homepage, which is a variation of the user page that shows the current user's zombie army. (This is the page we started implementing in index.html).
+    c. A homepage, which is a variation of the user page that shows the current user's zombie army.
+    (This is the page we started implementing in index.html).
 
 4 - Some method in the UI that allows the user to feed on CryptoKitties. We could have a button by each zombie on the homepage that says "Feed Me", then a text box that prompted the user to enter a kitty's ID (or a URL to that kitty, e.g. https://www.cryptokitties.co/kitty/578397). This would then trigger our function feedOnKitty.
 
