@@ -19,9 +19,13 @@ So we've left this implementation bare-bones. Here's a checklist of ideas for th
 
 5 - Some method in the UI for the user to attack another user's zombie.
 
-    One way to implement this would be when the user was browsing another user's page, there could be a button that said "Attack This Zombie". When the user clicked it, it would pop up a modal that contains the current user's zombie army and prompt them "Which zombie would you like to attack with?"
+    One way to implement this would be when the user was browsing another user's page, there could be a button that
+    said "Attack This Zombie". When the user clicked it, it would pop up a modal that contains the current user's zombie
+    army and prompt them "Which zombie would you like to attack with?"
 
-    The user's homepage could also have a button by each of their zombies that said "Attack a Zombie". When they clicked it, it could pop up a modal with a search field where they could type in a zombie's ID to search for it. Or an option that said "Attack Random Zombie", which would search a random number for them.
+    The user's homepage could also have a button by each of their zombies that said "Attack a Zombie". When they clicked
+    it, it could pop up a modal with a search field where they could type in a zombie's ID to search for it. Or an option
+    that said "Attack Random Zombie", which would search a random number for them.
 
 We would also want to grey out the user's zombies whose cooldown period had not yet passed, so the UI could indicate to the user that they can't yet attack with that zombie, and how long they will have to wait.
 
